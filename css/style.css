@@ -9,6 +9,9 @@
 body {
   font-family: "Roboto", sans-serif;
   background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 ul {
@@ -16,6 +19,7 @@ ul {
 }
 
 .container {
+  margin: 0 auto;
   padding: 0 150px;
 }
 
@@ -53,9 +57,8 @@ ul {
   color: #f9faf8;
 }
 
-button {
-  background-color: #3882f6;
-  color: #f9faf8;
+.header .container {
+  display: flex;
 }
 
 .information h2 {
@@ -72,4 +75,9 @@ button {
   font-size: 36px;
   font-weight: 300;
   font-style: italic;
+}
+
+button {
+  background-color: #3882f6;
+  color: #f9faf8;
 }
