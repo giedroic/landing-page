@@ -11,20 +11,28 @@ body {
   background-color: #fff;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  min-height: 100vh;
 }
 
 ul {
   list-style: none;
 }
 
+.header,
+.information,
+.quote,
+.product {
+  flex-grow: 1;
+}
+
+.header {
+  flex-grow: ;
+  background-color: #1f2937;
+}
+
 .container {
   margin: 0 auto;
   padding: 0 150px;
-}
-
-.hero {
-  background-color: #1f2937;
 }
 
 .navbar .logo {
@@ -34,7 +42,7 @@ ul {
 }
 
 .navbar a,
-.header p {
+.hero p {
   font-size: 18px;
   color: #e5e7eb;
   text-decoration: none;
@@ -51,13 +59,13 @@ ul {
   gap: 20px;
 }
 
-.header h1 {
+.hero h1 {
   font-size: 48px;
   font-weight: 800;
   color: #f9faf8;
 }
 
-.header .container {
+.hero .container {
   display: flex;
 }
 
@@ -75,6 +83,10 @@ ul {
   font-size: 36px;
   font-weight: 300;
   font-style: italic;
+}
+
+.footer {
+  margin-top: auto;
 }
 
 button {
