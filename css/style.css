@@ -220,6 +220,12 @@ ul {
 
 .footer {
   margin-top: auto;
+  color: #e5e7eb;
+  background-color: #1f2937;
+  padding: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 button {
