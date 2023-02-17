@@ -27,10 +27,11 @@ ul {
 
 .header {
   background-color: #1f2937;
+  display: flex;
+  flex-direction: column;
 }
 
 .container {
-  margin: 0 auto;
   padding: 0 150px;
 }
 
@@ -64,6 +65,45 @@ ul {
   color: #f9faf8;
 }
 
+.image {
+  display: flex;
+  color: #fff;
+  background-color: grey;
+  justify-content: center;
+  align-items: center;
+  width: 1000px;
+  height: 200px;
+}
+
+.header .navbar {
+  padding: 18px 0;
+}
+
+.header .hero {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: center;
+  margin: 100px 0;
+}
+
+.hero .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.hero .title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.hero button {
+  margin-top: 10px;
+}
+
 .information h2 {
   font-size: 36px;
   font-weight: 800;
@@ -85,6 +125,10 @@ ul {
 }
 
 button {
+  font-weight: 700;
   background-color: #3882f6;
   color: #f9faf8;
+  padding: 8px 25px;
+  border: #3882f6;
+  border-radius: 5px;
 }
